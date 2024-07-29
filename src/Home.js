@@ -11,6 +11,7 @@ function Home() {
 
 <div className="App">
     
+    <label>Early Access  25 January 2025</label>
 <img id="logo" src={logo} alt="logo"/>
 <h1>Join Waitlist for NFTinit Preview</h1>
 <p>This app contains the latest experimental versions developed for NFTinit Desktop Beta. Please review the usage agreement and possible possibilities while using it.</p>

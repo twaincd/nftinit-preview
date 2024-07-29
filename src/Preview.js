@@ -1,4 +1,3 @@
-// Page1.js
 import './tPreview.css';
 import React from 'react';
 
