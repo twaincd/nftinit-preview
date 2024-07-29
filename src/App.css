@@ -135,3 +135,17 @@ margin-top: 48px;
 .waitlist-ok:hover {
   background-color: #000;
 }
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    max-width: 280px;
+  }
+
+  p {
+    max-width: 300px;
+  }
+
+  #logo {
+    top: 5vh;
+  }
+}
