@@ -15,7 +15,7 @@ function Home() {
 <img id="logo" src={logo} alt="logo"/>
 <label>Early Access  25 January 2025</label>
 <h1>Join Waitlist for NFTinit Preview</h1>
-<p>This app contains the latest experimental versions developed for NFTinit Desktop Beta. Please review the usage agreement and possible possibilities while using it.</p>
+<p>NFTinit Preview is a beta app for NFTinit Desktop. Sign up for early access to beta features and more. Beta features may have stability issues, visit the details page for more information.</p>
 <Link style={{ textDecoration: 'none' }} to="/preview">
 <input class="waitlist-ok" type="button" value="Sign in to Join Waitlist" to="/page1"></input>
 </Link>
