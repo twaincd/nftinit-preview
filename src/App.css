@@ -17,8 +17,6 @@
 }
 
 #logo {
-  position: absolute;
-  top: 10vh;
   animation: gradient1 3s ease infinite;
   
 }
@@ -137,6 +135,7 @@ margin-top: 48px;
 }
 
 label {
+margin-top: 20px;
  backdrop-filter: blur(256px);
   background: #1a1a1a32;
   border-radius: 256px;
@@ -159,5 +158,9 @@ label {
   #logo {
     top: 5vh;
     transition: ease-in 200ms;
+  }
+
+  label {
+    margin-top: 40px;
   }
 }
