@@ -2,7 +2,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './App.css';
-import logo from './logo.svg';
+import logo from './logo.png';
 import Preview from './Preview.js'
 
 function Home() {

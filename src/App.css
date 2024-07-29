@@ -19,6 +19,8 @@
 #logo {
   animation: gradient1 3s ease infinite;
   margin-top: -10vh;
+  width: 128px;
+  margin-left: 16px;
   
 }
 
