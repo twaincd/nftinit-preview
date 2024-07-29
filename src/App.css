@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
 .App {
   text-align: center;
   background: linear-gradient(97deg, #b697ff -54.6%, #b1d9ff 17.57%, #FFF 56.05%, #F9E0FF 69.38%, #f0b4ff 101.68%), #000;
@@ -87,19 +89,20 @@
 h1 {
   color: #000;
   text-align: center;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: "Inter", sans-serif, system-ui;
+  font-optical-sizing: auto;
   font-size: 40px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  letter-spacing: -1px;
+  letter-spacing: -2px;
 }
 
 p {
   max-width: 640px;
   margin-top: -16px;
   color: #0000008b;
-font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: "Inter", sans-serif, system-ui;
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
@@ -122,7 +125,7 @@ background: linear-gradient(105deg, rgba(111, 51, 255, 0.86) -3.96%, rgba(90, 17
 background-size: 120% 120%;
 color: #FFF;
 text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.48);
-font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-family: "Inter", sans-serif, system-ui;
 font-size: 13px;
 font-style: normal;
 font-weight: 600;
@@ -145,7 +148,7 @@ margin-top: 20px;
   padding: 4px 8px;
   font-size: 11px;
   color: #fff;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: "Inter", sans-serif, system-ui;
 }
 
 @media only screen and (max-width: 600px) {
