@@ -1,7 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './Home';
-import Page1 from './Preview';
+import Preview from './Preview';
+import Sign from './sign';
 import Page2 from './Page2';
 
 function App() {
@@ -10,8 +11,9 @@ function App() {
       <div>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/preview" element={<Page1 />} />
-          <Route path="/page2" element={<Page2 />} />
+          <Route path="/preview" element={<Preview />} />
+          <Route path="/sign" element={<Sign />} />
+          <Route path="/Page2" element={<Page2 />} />
         </Routes>
       </div>
     </Router>
