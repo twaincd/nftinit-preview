@@ -9,6 +9,10 @@ html .sign {
     box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+    display: none;
+  }
+
 .sign {
     width: 100%;
     box-sizing: border-box;
