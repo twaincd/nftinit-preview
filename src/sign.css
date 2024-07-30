@@ -127,6 +127,11 @@ input.sign_form_input {
     box-sizing: border-box;
 }
 
+input.sign_form_input:hover::placeholder {
+    transition: ease-in 186ms;
+    color: #fff;
+}
+
 input.sign_form_input:focus {
     outline: none;
     color: #fff;
@@ -262,10 +267,6 @@ h3.sign_form_title {
     position: fixed;
     bottom: 16px;
     z-index: 10;
-}
-
-.init_notification_out {
-
 }
 
 .waitlist_notification {
