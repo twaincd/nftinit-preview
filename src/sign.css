@@ -242,6 +242,14 @@ h3.sign_form_title {
     margin-left: 8px;
 }
 
+.init_order_1 {
+    order: 1;
+}
+
+.init_order_2 {
+    order: 2;
+}
+
 @media only screen and (max-width: 600px) {
    
     body {
@@ -250,10 +258,12 @@ h3.sign_form_title {
 
     html .sign {
         overflow: visible;
+        padding: 8px;
     }
    
     .sign_container {
         flex-direction: column;
+        flex-flow: column-reverse;
    }
 
    .sign_adverse_container {
@@ -262,5 +272,18 @@ h3.sign_form_title {
 
    .init_version_component {
     width: 80%;
+   }
+
+   .init_order_1 {
+    order: 2;
+   }
+
+   .init_order_1 {
+    order: 1;
+   }
+
+   .sign_adverse {
+    background: none;
+    border: none;
    }
   }

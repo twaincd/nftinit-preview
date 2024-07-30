@@ -9,7 +9,7 @@ function sign() {
   return (
     <div class="sign">
           <div class="sign_container">
-      <div class="nft-col-2">
+      <div class="nft-col-2 init_order_1">
           <div class="sign_form">
           <h3 class="sign_form_title">Sign in</h3>
           <label class="sign_form_label">Username</label>
@@ -22,7 +22,7 @@ function sign() {
           </Link>
           </div>
       </div>
-      <div class="nft-col-2">
+      <div class="nft-col-2 init_order_2">
           <div class="sign_adverse">
             <div class="sign_adverse_container">
               <img class="sign_adverse_logo" src={logo} alt="logo"/>
