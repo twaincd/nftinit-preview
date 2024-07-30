@@ -255,11 +255,12 @@ h3.sign_form_title {
 @media only screen and (max-width: 600px) {
    
     body {
-        overflow: scroll;
+        overflow-y: scroll;
+        background: #151515;
     }
 
     html .sign {
-        overflow: visible;
+        
         padding: 8px;
     }
    
