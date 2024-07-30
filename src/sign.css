@@ -272,6 +272,9 @@ h3.sign_form_title {
    
     .sign_container {
         flex-direction: column;
+        background: none;
+        border: none;
+        box-shadow: none;
    }
 
    .sign_adverse_container {
