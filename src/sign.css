@@ -141,6 +141,7 @@ input.sign_form_input:focus::placeholder {
 input.sign_form_button {
     border-radius: 6px;
     border: 1.2px solid rgba(255, 255, 255, 0.32);
+    border-left: 1.2px solid  rgb(155, 112, 255);
     background: linear-gradient(105deg, rgba(111, 51, 255, 0.86) -3.96%, rgba(90, 174, 255, 0.86) 37.1%, rgba(227, 120, 255, 0.86) 84.95%);
     background-size: 200% 200%;
     color: #FFF;
@@ -158,6 +159,7 @@ input.sign_form_button {
 input.sign_form_button:hover {
     cursor: pointer;
     animation: sign_button_animate 1s ease;
+    border-left: 1.2px solid rgba(255, 255, 255, 0.32);
 }
 
 @keyframes sign_button_animate {
