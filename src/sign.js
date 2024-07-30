@@ -8,6 +8,16 @@ import './sign.css';
 function sign() {
   return (
     <div class="sign">
+
+<div class="init_notification">
+      <div class="init_notification_out">
+        <div class="waitlist_notification">
+          We can't waitlist you right now, try again in a few days.
+        </div>
+        
+      </div>
+    </div>
+
           <div class="sign_container">
       <div class="nft-col-2 init_order_1">
           <div class="sign_form">
