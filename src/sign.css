@@ -11,6 +11,8 @@ html .sign {
 
 ::-webkit-scrollbar {
     display: none;
+    scrollbar-width: none;   
+    -ms-overflow-style: -ms-autohiding-scrollbar;
   }
 
 .sign {
