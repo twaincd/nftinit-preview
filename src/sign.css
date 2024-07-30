@@ -260,6 +260,19 @@ h3.sign_form_title {
         overflow: visible;
         padding: 8px;
     }
+
+    h1.sign_adverse_title {
+        font-size: 24px;
+    }
+
+    .sign_adverse_logo {
+        width: 86px;
+        margin-left: 16px;
+    }
+
+    .sign_adverse_desc {
+        display: none;
+    }
    
     .sign_container {
         flex-direction: column;

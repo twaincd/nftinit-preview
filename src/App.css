@@ -7,6 +7,7 @@ body.App {
 
 .App {
   text-align: center;
+  background: #151515;
   background: linear-gradient(97deg, #b697ff -54.6%, #b1d9ff 17.57%, #FFF 56.05%, #F9E0FF 69.38%, #f0b4ff 101.68%), #000;
   background-size: 200% 200%;
   animation: gradient 5s ease infinite;
