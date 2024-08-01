@@ -26,9 +26,7 @@ function sign() {
           <input class="sign_form_input" type="text" name="Username" placeholder="Username" id="test"></input>
           <label class="sign_form_label">Password</label>
           <input class="sign_form_input" type="password" name="Username" placeholder="Password" id="test"></input>
-          <Link style={{ textDecoration: 'none', color: '#666666', width: '100%'}} to="/dashboard">
           <input class="sign_form_button" type="button" value="Sign in" ></input>
-          </Link>
           <Link style={{ textDecoration: 'none', color: '#666666'}} to="/">
             <div class="back_button">Back</div>
           </Link>
