@@ -158,6 +158,7 @@ input.sign_form_button {
     line-height: 8px; /* 61.538% */
     height: 32px;
     margin: 24px 0px;
+    width: 100%;
 }
 
 
