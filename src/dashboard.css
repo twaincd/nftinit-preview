@@ -249,7 +249,7 @@ html .sign {
 .bidbar_crypto .bidbar_crypto_change img {
     position: absolute;
     top: 14px;
-    right: 16px;
+    margin-left: 24px;
 }
 
 .bidbar_crypto_change img:hover {
