@@ -8,13 +8,13 @@ body {
 }
 
 html .sign {
-    overflow: hidden;
+    /* overflow: hidden; */
     background: #151515;
     box-sizing: border-box;
 }
 
 .dashboard body, html {
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .dashboard {

@@ -1,12 +1,14 @@
-
-
-
-body {
+.overflow-hidden {
     overflow: hidden;
 }
 
+
+body {
+   /* overflow: hidden; */
+}
+
 html .sign {
-    overflow: hidden;
+   /* overflow: hidden; */
     background: #151515;
     box-sizing: border-box;
 }
@@ -14,7 +16,7 @@ html .sign {
 .sign {
     width: 100%;
     box-sizing: border-box;
-    overflow: hidden;
+   /* overflow: hidden; */
     background: #151515;
     padding: 24px;
     color: #FFF;

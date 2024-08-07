@@ -7,7 +7,7 @@ import './sign.css';
 
 function sign() {
   return (
-    <div class="sign">
+    <div class="sign overflow-hidden">
 
 <div class="init_notification">
       <div class="init_notification_out">
