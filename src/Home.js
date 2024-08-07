@@ -9,7 +9,7 @@ function Home() {
   return (
 
 
-<div className="App">
+<div className="App no-scroll">
     
 
 <img id="logo" src={logo} alt="logo"/>

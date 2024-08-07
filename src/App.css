@@ -5,6 +5,10 @@ body.App {
   margin: 0px
 }
 
+.no-scroll {
+  overflow: hidden;
+}
+
 .App {
   text-align: center;
   background: #151515;
@@ -118,28 +122,27 @@ line-height: normal;
 .waitlist-ok {
   text-decoration: none;
   text-decoration-line: none;
-
   display: flex;
-width: auto;
-padding: 12px 32px;
-justify-content: center;
-align-items: center;
-gap: 10px;
-border-radius: 6px;
-border: 1.2px solid #D4C3FF;
-background: linear-gradient(105deg, rgba(111, 51, 255, 0.86) -3.96%, rgba(90, 174, 255, 0.86) 37.1%, rgba(227, 120, 255, 0.86) 84.95%);
-background-size: 120% 120%;
-color: #FFF;
-text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.48);
-font-family: "Inter", sans-serif, system-ui;
-font-size: 13px;
-font-style: normal;
-font-weight: 600;
-line-height: 8px; /* 61.538% */
-transition: ease 300ms;
-cursor: pointer;
-box-sizing: content-box;
-margin-top: 48px;
+  width: auto;
+  padding: 12px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 6px;
+  border: 1.2px solid #D4C3FF;
+  background: linear-gradient(105deg, rgba(111, 51, 255, 0.86) -3.96%, rgba(90, 174, 255, 0.86) 37.1%, rgba(227, 120, 255, 0.86) 84.95%);
+  background-size: 120% 120%;
+  color: #FFF;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.48);
+  font-family: "Inter", sans-serif, system-ui;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 8px; /* 61.538% */
+  transition: ease 300ms;
+  cursor: pointer;
+  box-sizing: content-box;
+  margin-top: 48px;
 }
 
 .waitlist-ok:hover {
