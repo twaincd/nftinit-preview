@@ -4,7 +4,7 @@
 
 
 body {
-   /* overflow: hidden; */
+   overflow: hidden;
 }
 
 html .sign {
@@ -291,7 +291,7 @@ h3.sign_form_title {
 @media only screen and (max-width: 600px) {
    
     body {
-        /* overflow-y: scroll; */
+        overflow-y: scroll;
         background: #151515;
     }
 

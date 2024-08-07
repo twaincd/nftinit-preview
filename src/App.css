@@ -5,9 +5,6 @@ body.App {
   margin: 0px
 }
 
-.no-scroll {
-  overflow: hidden;
-}
 
 .App {
   text-align: center;
